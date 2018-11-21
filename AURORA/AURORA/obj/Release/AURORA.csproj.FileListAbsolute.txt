@@ -85,3 +85,20 @@ C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Rel
 C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.application
 C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\Infinity.dll
 C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\Infinity.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\AURORA.exe.config
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.exe
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\AURORA.exe.manifest
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\AURORA.application
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\AURORA.exe
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\AURORA.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Infinity.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\InputSimulator.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Infinity.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.csprojResolveAssemblyReference.cache
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.Properties.Resources.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.exe.manifest
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.application

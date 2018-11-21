@@ -53,3 +53,16 @@ C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Rel
 C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.PGeneral.resources
 C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.PLuces.resources
 C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.AsistenteInterfaz.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.ASISTENTE.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.AsistenteInterfaz.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.PGeneral.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.PLuces.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Properties.Resources.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csproj.GenerateResource.Cache
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\bin\Release\Infinity.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\bin\Release\Infinity.pdb

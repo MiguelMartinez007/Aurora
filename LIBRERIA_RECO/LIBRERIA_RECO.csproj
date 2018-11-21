@@ -116,7 +116,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\InfinityControls\Infinity\Infinity.csproj">
+    <ProjectReference Include="..\..\InfinityControls\Infinity\Infinity.csproj">
       <Project>{045ed23f-3d6c-435d-b3d7-b02749993753}</Project>
       <Name>Infinity</Name>
     </ProjectReference>

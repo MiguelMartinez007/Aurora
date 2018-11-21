@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AURORA", "AURORA\AURORA.csproj", "{6D1C4B77-8143-4F31-A98C-AB06178BE672}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIBRERIA_RECO", "..\LIBRERIA_RECO\LIBRERIA_RECO.csproj", "{2B2FB37B-64C8-40F2-8313-D5A9F1AA9DA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infinity", "..\..\..\InfinityControls\Infinity\Infinity.csproj", "{045ED23F-3D6C-435D-B3D7-B02749993753}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infinity", "..\..\InfinityControls\Infinity\Infinity.csproj", "{045ED23F-3D6C-435D-B3D7-B02749993753}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
