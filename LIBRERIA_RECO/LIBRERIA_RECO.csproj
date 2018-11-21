@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B2FB37B-64C8-40F2-8313-D5A9F1AA9DA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LIBRERIA_RECO</RootNamespace>
+    <AssemblyName>LIBRERIA_RECO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InputSimulator">
+      <HintPath>..\..\..\..\Desktop\InputSimulator.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alarma.cs" />
+    <Compile Include="ArduinoControl.cs" />
+    <Compile Include="ASISTENTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASISTENTE.Designer.cs">
+      <DependentUpon>ASISTENTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsistenteInterfaz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AsistenteInterfaz.Designer.cs">
+      <DependentUpon>AsistenteInterfaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AV.cs" />
+    <Compile Include="buscador.cs" />
+    <Compile Include="conexion.cs" />
+    <Compile Include="controladorCasa.cs" />
+    <Compile Include="controladorSwitch.cs" />
+    <Compile Include="ejecuta.cs" />
+    <Compile Include="listarCancionesURL.cs" />
+    <Compile Include="PGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PGeneral.Designer.cs">
+      <DependentUpon>PGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLuces.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PLuces.Designer.cs">
+      <DependentUpon>PLuces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="simuladorPrecionarTecla.cs" />
+    <Compile Include="validaciones.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graficas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ASISTENTE.resx">
+      <DependentUpon>ASISTENTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsistenteInterfaz.resx">
+      <DependentUpon>AsistenteInterfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGeneral.resx">
+      <DependentUpon>PGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLuces.resx">
+      <DependentUpon>PLuces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\InfinityControls\Infinity\Infinity.csproj">
+      <Project>{045ed23f-3d6c-435d-b3d7-b02749993753}</Project>
+      <Name>Infinity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

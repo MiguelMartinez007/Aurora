@@ -1,0 +1,92 @@
+azul = #3479B0
+buttonHover = #F9F9FA
+rojo = #EC1D42
+colorTextBoton = #F9F9FA
+cabezera = #21262E
+
+box-sizing(n)
+	-webkit-box-sizing n
+	-moz-box-sizing n
+	box-sizing n
+flex(n)
+	display -webkit- n
+	display -moz- n
+	display -ms- n
+	display -o- n
+	display n
+flex-flow(n)
+	flex-flow -webkit- n
+	flex-flow -moz- n
+	flex-flow -ms- n
+	flex-flow -o- n
+	flex-flow n
+align-items(n)
+	align-items -webkit- n
+	align-items -moz- n
+	align-items -ms- n
+	align-items -o- n
+	align-items n
+justify-content(n)
+	justify-content -webkit- n
+	justify-content -moz- n
+	justify-content -ms- n
+	justify-content -o- n
+	justify-content n
+transition(n)
+	transition -webkit- n
+	transition -moz- n
+	transition -ms- n
+	transition -o- n
+	transition n
+word-wrap(n)
+	word-wrap -webkit- n
+	word-wrap -moz- n
+	word-wrap -ms- n
+	word-wrap -o- n
+	word-wrap n
+flex-direction(n)
+	flex-direction -webkit- n
+	flex-direction -moz- n
+	flex-direction -ms- n
+	flex-direction -o- n
+	flex-direction n
+
+valoresDefault()
+	width 100%
+	overflow hidden
+
+*
+	padding 0
+	margin 0
+
+#botones
+	valoresDefault()
+	flex(flex)
+	flex-flow(row no-wrap)
+	justify-content(center)
+	align-items(stretch)
+	a
+		display block
+		width 50%
+		max-width 200px
+		margin 10px
+		text-decoration none
+		padding 10px
+		background-color azul
+		color colorTextBoton
+		font-weight bold
+		flex(flex)
+		flex-flow(row no-wrap)
+		justify-content(center)
+		align-items(center)
+		transition all 0.2s ease
+		p
+			text-align center
+		&:hover
+			color azul
+			background-color buttonHover
+	a#cerrar
+		background-color rojo
+		&:hover
+			background-color buttonHover
+			color rojo

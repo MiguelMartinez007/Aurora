@@ -1,0 +1,13 @@
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Debug\LIBRERIA_RECO.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Debug\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Debug\InputSimulator.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.INTERFAZ.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.csproj.GenerateResource.Cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.Properties.Resources.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Debug\LIBRERIA_RECO.Asistente.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Debug\ControlesPersonales.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Debug\ControlesPersonales.pdb

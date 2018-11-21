@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LIBRERIA_RECO
+{
+    class Graficas
+    {
+
+		SerialPort sp = new SerialPort(); // Puerto serial
+        Random aleatorio; // Variable para generar valores aleatorios
+
+        public GraficacionArduino()
+        {
+            InitializeComponent();
+        }
+
+        /* Funcion para agregar valores a la grafica de arduino */
+        void graficarValor()
+        {
+            sp.PortName = "COM3";
+            sp.BaudRate = 9600;
+            sp.Open();
+        }
+
+        private void timerGraficacion_Tick(object sender, EventArgs e)
+        {
+            string POT = sp.ReadExisting();
+            String[] dat = POT.Split('*');
+            String lbl_Humedad = String.Empty, lbl_temp = String.Empty;
+            int humedad = 0, temp = 0;
+            bool vandera = false;
+            try
+            {
+                lbl_Humedad = dat[0];
+                lbl_temp = dat[1];
+                humedad = int.Parse(lbl_Humedad);
+                temp = int.Parse(lbl_temp);
+                vandera = true;
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.ToString());
+            }
+            if (vandera)
+            {
+                lblHuedad.Text = humedad.ToString() + "%";
+                lblTemp.Text = temp.ToString() + "C°";
+                txb_Humedad.Text = humedad.ToString() + "%" + Environment.NewLine + txb_Humedad.Text;
+                txb_Temperatura.Text = temp.ToString() + "C°" + Environment.NewLine + txb_Temperatura.Text;
+                graficaArduino.Series["Humedad"].Points.AddY(humedad);
+                graficaArduino.Series["Temperatura"].Points.AddY(temp);
+            }
+        }
+
+        private void GraficacionArduino_Load(object sender, EventArgs e)
+        {
+            graficarValor();
+            timerGraficacion.Enabled = true;
+        }
+
+    }
+}

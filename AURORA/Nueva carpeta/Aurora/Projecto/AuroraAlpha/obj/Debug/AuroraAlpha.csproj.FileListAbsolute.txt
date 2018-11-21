@@ -1,0 +1,9 @@
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\bin\Debug\AuroraAlpha.exe
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\bin\Debug\AuroraAlpha.pdb
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\obj\Debug\AuroraAlpha.csprojResolveAssemblyReference.cache
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\obj\Debug\AuroraAlpha.Form1.resources
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\obj\Debug\AuroraAlpha.Properties.Resources.resources
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\obj\Debug\AuroraAlpha.csproj.GenerateResource.Cache
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\obj\Debug\AuroraAlpha.exe
+c:\users\mavis\documents\visual studio 2013\Projects\AuroraAlpha\AuroraAlpha\obj\Debug\AuroraAlpha.pdb

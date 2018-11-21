@@ -1,0 +1,21 @@
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\AURORA.exe.config
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\AURORA.exe
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\AURORA.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.csprojResolveAssemblyReference.cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.Properties.Resources.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.csproj.GenerateResource.Cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.exe
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\LIBRERIA_RECO.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\AURORA.exe.manifest
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\AURORA.application
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.exe.manifest
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.application
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\InputSimulator.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\ControlesPersonales.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\ControlesPersonales.pdb
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Debug\AURORA.exe.config
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.exe
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Debug\AURORA.pdb

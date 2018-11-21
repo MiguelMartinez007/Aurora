@@ -1,0 +1,87 @@
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.config
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csprojResolveAssemblyReference.cache
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.Properties.Resources.resources
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.manifest
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.application
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.pdb
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\ControlesPersonales.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\InputSimulator.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\ControlesPersonales.pdb
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe.manifest
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.application
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.config
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.manifest
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.application
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\ControlesPersonales.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\ControlesPersonales.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csprojResolveAssemblyReference.cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.Properties.Resources.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe.manifest
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.application
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\InputSimulator.dll
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.config
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.pdb
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.manifest
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.application
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.pdb
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.dll
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\Bunifu_UI_v1.52.dll
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\ControlesPersonales.dll
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\InputSimulator.dll
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.pdb
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\ControlesPersonales.pdb
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csprojResolveAssemblyReference.cache
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.Properties.Resources.resources
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe.manifest
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.application
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.config
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.pdb
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe.manifest
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.application
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.exe
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\AURORA.pdb
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\InputSimulator.dll
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csprojResolveAssemblyReference.cache
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.Properties.Resources.resources
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.exe.manifest
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\AURORA\AURORA\obj\Release\AURORA.application
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\AURORA.exe.config
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.exe
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\AURORA.exe.manifest
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\AURORA.application
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\AURORA.exe
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\AURORA.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\InputSimulator.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.csprojResolveAssemblyReference.cache
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.Properties.Resources.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.exe.manifest
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\obj\Release\AURORA.application
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\Infinity.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\AURORA\AURORA\bin\Release\Infinity.pdb

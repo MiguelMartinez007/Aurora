@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+	<title>iHouse</title>
+	<style>
+		* {
+  padding: 0;
+  margin: 0;
+}
+#botones {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+#botones a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #3479b0;
+  color: #f9f9fa;
+  font-weight: bold;
+  transition: all;
+}
+#botones a p {
+  text-align: center;
+}
+#botones a:hover {
+  color: #3479b0;
+  background-color: #f9f9fa;
+}
+#botones a#cerrar {
+  background-color: #ec1d42;
+}
+#botones a#cerrar:hover {
+  background-color: #f9f9fa;
+  color: #ec1d42;
+}
+
+
+	</style>
+</head>
+<body>
+	<div id='botones'>
+		<a href=\"/?button2on\"\"><p>Luces</p></a>
+		<a id='cerrar' href=\"/?button2off\"\"><p>Apagar luces</p></a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Asistente.resources
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.INTERFAZ.resources
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Properties.Resources.resources
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csproj.GenerateResource.Cache
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\ControlesPersonales.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\InputSimulator.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\ControlesPersonales.pdb
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.dll
+C:\Users\WIKI\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Asistente.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.INTERFAZ.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Properties.Resources.resources
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csproj.GenerateResource.Cache
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\ControlesPersonales.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\InputSimulator.dll
+C:\Users\WIKI\Google Drive\Disco V\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\ControlesPersonales.pdb
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Asistente.resources
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.INTERFAZ.resources
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Properties.Resources.resources
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csproj.GenerateResource.Cache
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.dll
+E:\SOFTWARE\Proyectos grandes\Evolución del asistente\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.INTERFAZ.resources
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Properties.Resources.resources
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csproj.GenerateResource.Cache
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\ControlesPersonales.dll
+C:\Users\MIKE\Desktop\PROYECTO AURORA 2017\LIBRERIA_RECO\bin\Release\ControlesPersonales.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\bin\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\bin\Release\Infinity.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\bin\Release\Infinity.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csprojResolveAssemblyReference.cache
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.ASISTENTE.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.Properties.Resources.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.csproj.GenerateResource.Cache
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.pdb
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.PGeneral.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.PLuces.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\PROYECTO AURORA 2018\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.AsistenteInterfaz.resources
