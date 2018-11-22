@@ -78,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="alarma.cs" />
+    <Compile Include="AlarmaArduino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmaArduino.Designer.cs">
+      <DependentUpon>AlarmaArduino.cs</DependentUpon>
+    </Compile>
     <Compile Include="ArduinoControl.cs" />
     <Compile Include="ASISTENTE.cs">
       <SubType>Form</SubType>
@@ -96,9 +102,22 @@
     <Compile Include="conexion.cs" />
     <Compile Include="controladorCasa.cs" />
     <Compile Include="controladorSwitch.cs" />
+    <Compile Include="controlTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlTV.Designer.cs">
+      <DependentUpon>controlTV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Data.cs" />
     <Compile Include="ejecuta.cs" />
+    <Compile Include="interfazControlTV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="interfazControlTV.Designer.cs">
+      <DependentUpon>interfazControlTV.cs</DependentUpon>
+    </Compile>
     <Compile Include="listarCancionesURL.cs" />
+    <Compile Include="Music.cs" />
     <Compile Include="PGeneral.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -124,11 +143,20 @@
     <Content Include="Graficas.txt" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AlarmaArduino.resx">
+      <DependentUpon>AlarmaArduino.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ASISTENTE.resx">
       <DependentUpon>ASISTENTE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AsistenteInterfaz.resx">
       <DependentUpon>AsistenteInterfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlTV.resx">
+      <DependentUpon>controlTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfazControlTV.resx">
+      <DependentUpon>interfazControlTV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PGeneral.resx">
       <DependentUpon>PGeneral.cs</DependentUpon>
