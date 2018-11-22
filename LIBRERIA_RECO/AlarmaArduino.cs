@@ -21,8 +21,6 @@ namespace LIBRERIA_RECO
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.ImageLocation = @"c:\recursos\2.gif";
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.ImageLocation = @"c:\recursos\3.gif";
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.ImageLocation = @"c:\recursos\4.gif";
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.ImageLocation = @"c:\recursos\2.gif";
@@ -51,15 +49,6 @@ namespace LIBRERIA_RECO
 
             SoundPlayer s1 = new SoundPlayer(@"c:\recursos\alarma.wav");
             s1.Play();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            //a.timer1.Start();
-            //Music m = new Music();
-            //m.adesac();
-            Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -120,6 +109,15 @@ namespace LIBRERIA_RECO
                 panel6.BackColor = Color.Red;
 
             }
+        }
+
+        private void buttonNormal1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            //a.timer1.Start();
+            //Music m = new Music();
+            //m.adesac();
+            Close();
         }
 
 
