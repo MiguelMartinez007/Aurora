@@ -53,7 +53,7 @@ namespace LIBRERIA_RECO
                 comedor = obj.comedor,
                 estéreo = obj.estéreo,
                 habitación = obj.habitación,
-                portón = !switchIPuertaPrincipal.EstadoSwitch,
+                portón = switchIPuertaPrincipal.EstadoSwitch,
                 sala = obj.sala,
                 servicio = obj.servicio
             };
