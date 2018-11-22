@@ -27,7 +27,7 @@ namespace LIBRERIA_RECO
             BasePath = "https://aurora-f2614.firebaseio.com/"
         };
 
-        IFirebaseClient client; // Cliente del servicio de conexión}
+        IFirebaseClient client; // Cliente del servicio de conexión
 
 
         /* Funciones del desarrollador */
