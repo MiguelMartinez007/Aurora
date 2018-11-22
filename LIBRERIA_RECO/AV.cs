@@ -239,20 +239,20 @@ namespace LIBRERIA_RECO
         {
             if (reconoce) // Si el sistema esta reconociendo
             {
-                String frace = String.Empty; // Se guarda la frace sin el nombre del asistente por ejemplo: 'ATOM'
+                String frase = String.Empty; // Se guarda la frase sin el nombre del asistente por ejemplo: 'ATOM'
                 if (!buscador.buscar(speech)) // Si no se a reconocido alguna sentencia para buscar en Internet
                 {
-                    frace = quitarNombreAV(); // Ejecutar funcion para eliminar el nombre del asistente de la horación reconocida
-                    if (frace != "") speech = frace; // Si la frace es igual a vacio se asigna a speech
-                    if (frace != "") reconoce = true; // Si la frace es igual a vacio se activa el reconocimiento
-                    frace = speech; // Se asigna a frace la sentencia speech
+                    frase = quitarNombreAV(); // Ejecutar funcion para eliminar el nombre del asistente de la horación reconocida
+                    if (frase != "") speech = frase; // Si la frase es igual a vacio se asigna a speech
+                    if (frase != "") reconoce = true; // Si la frase es igual a vacio se activa el reconocimiento
+                    frase = speech; // Se asigna a frase la sentencia speech
                 }
                 else // si no
                 {
                     responder("Buscando"); // Respuesta a las sentencias para buscar en el nabegador
                 }
 
-                if (!peticionDate(frace)) // Si no se esta pidiendo dia ni hora cumple con todo lo demas
+                if (!peticionDate(frase)) // Si no se esta pidiendo dia ni hora cumple con todo lo demas
                 {
                     String respuesta = peticionDeRespuesta("call respuesta(" + idAsistente + ", '" + speech + "');"); // Se manda la peticion de respuesta existentena lo reconocido, y se guarda en la variable respuesta
                     
@@ -280,20 +280,20 @@ namespace LIBRERIA_RECO
         }
 
         // Funcion para comprobar que lo que se esta pidiendo es la hora o la fecha del dia de hoy
-        private bool peticionDate(string frace)
+        private bool peticionDate(string frase)
         {
             // Verifica que esta preguntando
-            if (frace == "que fecha es") // si es fecha
+            if (frase == "que fecha es") // si es fecha
             {
                 infoDate = "fecha";
                 return true; // retorna true o verdadero si es que coincidió con alguna sentencia
             }
-            else if (frace == "que día es") // si es dia
+            else if (frase == "que día es") // si es dia
             {
                 infoDate = "día";
                 return true;
             }
-            else if (frace == "que hora es") // si el hora
+            else if (frase == "que hora es") // si el hora
             {
                 infoDate = "hora";
                 return true;
@@ -340,11 +340,11 @@ namespace LIBRERIA_RECO
                 ejec.conn.Close(); // Cerramos la conexión
                 if (contador > 0) // Si existe al menos una respuesta entrar
                 {
-                    String[] fraces = respuesta.Split('*'); // Guardado de las respuestas en un arreglo
+                    String[] frases = respuesta.Split('*'); // Guardado de las respuestas en un arreglo
                     String[] ejecutas = ejecuta.Split('*'); // Guardado de las herramientas a ejecutar en un arreglo
                     Random elijeRespuesta = new Random(); // Instanciamiento del objeto Random, para objenet una respuesta aleatoria
                     int resp = elijeRespuesta.Next(0, contador); // Calculo de la respuesta aleatoria
-                    respuesta = fraces[resp]; // Se asigna la frace escojida a respuesta
+                    respuesta = frases[resp]; // Se asigna la frase escojida a respuesta
                     try
                     {
                         String[] tecladoArduino = ejecutas[resp].Split(' '); // Separamos la respuesta por los espacios que tenga
@@ -375,23 +375,23 @@ namespace LIBRERIA_RECO
         // Funcion para buscar y eliminar la palabra "AV" de la oración
         private string quitarNombreAV()
         {
-            String fraceFinal = String.Empty; // String.Empty es lo mismo que tener String fraceFinal = ""
+            String fraseFinal = String.Empty; // String.Empty es lo mismo que tener String fraseFinal = ""
             int inicio = speech.IndexOf(nombreAsistente); // Buscando la posicion en la que empieza la palabra 'AV'
             if (inicio == 0)
             {
                 if (speech != nombreAsistente)
                 {
-                    fraceFinal = speech.Remove(0, nombreAsistente.Length + 1); // Remover si es que la palabra 'AV' se encuantra al principio de la oración
+                    fraseFinal = speech.Remove(0, nombreAsistente.Length + 1); // Remover si es que la palabra 'AV' se encuantra al principio de la oración
                     intervaloReconocimientoVoz = intervaloReconocimientoVozEstatico; // Resetea el valor de tiempo de espera para desactivarse el reconocimiento
                 }
             }
             else if (inicio > 0)
             {
-                fraceFinal = speech.Remove(inicio - 1, nombreAsistente.Length + 1); // Remover si la palabra se encuantra al final de la oración
+                fraseFinal = speech.Remove(inicio - 1, nombreAsistente.Length + 1); // Remover si la palabra se encuantra al final de la oración
                 intervaloReconocimientoVoz = intervaloReconocimientoVozEstatico ; // Resetea el valor de tiempo de espera para desactivarse el reconocimiento
             }
-            //MessageBox.Show(fraceFinal);
-            return fraceFinal;
+            //MessageBox.Show(fraseFinal);
+            return fraseFinal;
         }
 
         public List<string> verComandos(string query)
