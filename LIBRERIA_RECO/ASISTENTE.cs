@@ -66,15 +66,15 @@ namespace LIBRERIA_RECO
             response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
-            pluces.switchIBano.EstadoSwitch = !obj.baño;
-            pluces.switchICochera.EstadoSwitch = !obj.cochera;
-            pluces.switchICocina.EstadoSwitch = !obj.cocina;
-            pluces.switchIComedor.EstadoSwitch = !obj.comedor;
-            pluces.switchIHabitacion.EstadoSwitch = !obj.habitación;
-            pluces.switchISala.EstadoSwitch = !obj.sala;
-            pluces.switchIServicio.EstadoSwitch = !obj.servicio;
-            pgeneral.switchISeguridad.EstadoSwitch = !obj.alarma;
-            pgeneral.switchIPuertaPrincipal.EstadoSwitch = !obj.portón;
+            pluces.switchIBano.EstadoSwitch = obj.baño;
+            pluces.switchICochera.EstadoSwitch = obj.cochera;
+            pluces.switchICocina.EstadoSwitch = obj.cocina;
+            pluces.switchIComedor.EstadoSwitch = obj.comedor;
+            pluces.switchIHabitacion.EstadoSwitch = obj.habitación;
+            pluces.switchISala.EstadoSwitch = obj.sala;
+            pluces.switchIServicio.EstadoSwitch = obj.servicio;
+            pgeneral.switchISeguridad.EstadoSwitch = obj.alarma;
+            pgeneral.switchIPuertaPrincipal.EstadoSwitch = obj.portón;
         }
 
 

@@ -50,7 +50,7 @@ namespace LIBRERIA_RECO
             {
                 alarma = obj.alarma,
                 baño = obj.baño,
-                cochera = !switchICochera.EstadoSwitch,
+                cochera = switchICochera.EstadoSwitch,
                 cocina = obj.cocina,
                 comedor = obj.comedor,
                 estéreo = obj.estéreo,
@@ -83,7 +83,7 @@ namespace LIBRERIA_RECO
                 baño = obj.baño,
                 cochera = obj.cochera,
                 cocina = obj.cocina,
-                comedor = !switchIComedor.EstadoSwitch,
+                comedor = switchIComedor.EstadoSwitch,
                 estéreo = obj.estéreo,
                 habitación = obj.habitación,
                 portón = obj.portón,
@@ -106,7 +106,7 @@ namespace LIBRERIA_RECO
                 cocina = obj.cocina,
                 comedor = obj.comedor,
                 estéreo = obj.estéreo,
-                habitación = !switchIHabitacion.EstadoSwitch,
+                habitación = switchIHabitacion.EstadoSwitch,
                 portón = obj.portón,
                 sala = obj.sala,
                 servicio = obj.servicio
@@ -130,7 +130,7 @@ namespace LIBRERIA_RECO
                 habitación = obj.habitación,
                 portón = obj.portón,
                 sala = obj.sala,
-                servicio = !switchIServicio.EstadoSwitch
+                servicio = switchIServicio.EstadoSwitch
             };
             mandarDatosJson(data);
         }
@@ -145,7 +145,7 @@ namespace LIBRERIA_RECO
                 alarma = obj.alarma,
                 baño = obj.baño,
                 cochera = obj.cochera,
-                cocina = !switchICocina.EstadoSwitch,
+                cocina = switchICocina.EstadoSwitch,
                 comedor = obj.comedor,
                 estéreo = obj.estéreo,
                 habitación = obj.habitación,
@@ -171,7 +171,7 @@ namespace LIBRERIA_RECO
                 estéreo = obj.estéreo,
                 habitación = obj.habitación,
                 portón = obj.portón,
-                sala = !switchISala.EstadoSwitch,
+                sala = switchISala.EstadoSwitch,
                 servicio = obj.servicio
             };
             mandarDatosJson(data);
@@ -185,7 +185,7 @@ namespace LIBRERIA_RECO
             var data = new Data
             {
                 alarma = obj.alarma,
-                baño = !switchIBano.EstadoSwitch,
+                baño = switchIBano.EstadoSwitch,
                 cochera = obj.cochera,
                 cocina = obj.cocina,
                 comedor = obj.comedor,

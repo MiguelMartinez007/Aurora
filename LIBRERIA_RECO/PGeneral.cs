@@ -67,7 +67,7 @@ namespace LIBRERIA_RECO
 
             var data = new Data
             {
-                alarma = !switchISeguridad.EstadoSwitch,
+                alarma = switchISeguridad.EstadoSwitch,
                 baño = obj.baño,
                 cochera = obj.cochera,
                 cocina = obj.cocina,
