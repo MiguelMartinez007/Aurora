@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ASISTENTE));
             this.menuPricipal = new System.Windows.Forms.Panel();
             this.luces = new Infinity.Controls.ButtonImageInfinity();
@@ -39,6 +40,7 @@
             this.barraSuperior = new System.Windows.Forms.Panel();
             this.barraInferior = new System.Windows.Forms.Panel();
             this.pContenedor = new System.Windows.Forms.Panel();
+            this.timerValoresFirebase = new System.Windows.Forms.Timer(this.components);
             this.menuPricipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -179,6 +181,12 @@
             this.pContenedor.Size = new System.Drawing.Size(690, 377);
             this.pContenedor.TabIndex = 7;
             // 
+            // timerValoresFirebase
+            // 
+            this.timerValoresFirebase.Enabled = true;
+            this.timerValoresFirebase.Interval = 3000;
+            this.timerValoresFirebase.Tick += new System.EventHandler(this.timerValoresFirebase_Tick);
+            // 
             // ASISTENTE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -214,5 +222,6 @@
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Panel barraInferior;
         private System.Windows.Forms.Panel pContenedor;
+        private System.Windows.Forms.Timer timerValoresFirebase;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using FireSharp.Config;
 using FireSharp.Interfaces;
+using FireSharp.Response;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,6 +39,7 @@ namespace LIBRERIA_RECO
         };
 
         IFirebaseClient client; // Cliente del servicio de conexión
+        FirebaseResponse response; // Tomara los datos y los insertara, eliminara o editara
 
         /* Funciones del desarrollador */
 
@@ -59,6 +61,22 @@ namespace LIBRERIA_RECO
             pluces.Dock = DockStyle.Fill;
         }
 
+        // función para tomar los nuevos valores que tiene firebase
+        async void actualizarValoresFirebase(){
+            response = await client.GetAsync("/");
+            Data obj = response.ResultAs<Data>();
+
+            pluces.switchIBano.EstadoSwitch = !obj.baño;
+            pluces.switchICochera.EstadoSwitch = !obj.cochera;
+            pluces.switchICocina.EstadoSwitch = !obj.cocina;
+            pluces.switchIComedor.EstadoSwitch = !obj.comedor;
+            pluces.switchIHabitacion.EstadoSwitch = !obj.habitación;
+            pluces.switchISala.EstadoSwitch = !obj.sala;
+            pluces.switchIServicio.EstadoSwitch = !obj.servicio;
+            pgeneral.switchISeguridad.EstadoSwitch = !obj.alarma;
+            pgeneral.switchIPuertaPrincipal.EstadoSwitch = !obj.portón;
+        }
+
 
 
         private void close_Click(object sender, EventArgs e)
@@ -71,6 +89,7 @@ namespace LIBRERIA_RECO
             // Llama a panel general al formulario principal
             quitarControles();
             pContenedor.Controls.Add(pgeneral);
+            actualizarValoresFirebase();
         }
 
         private void luces_Click(object sender, EventArgs e)
@@ -78,6 +97,7 @@ namespace LIBRERIA_RECO
             // Llama a panel luces al formulario principal
             quitarControles();
             pContenedor.Controls.Add(pluces);
+            actualizarValoresFirebase();
         }
 
         private void ASISTENTE_Load(object sender, EventArgs e)
@@ -96,9 +116,14 @@ namespace LIBRERIA_RECO
             }
             else
             {
-
                 MessageBox.Show("Conexion exitosa");
+                actualizarValoresFirebase();
             }
+        }
+
+        private void timerValoresFirebase_Tick(object sender, EventArgs e)
+        {
+            actualizarValoresFirebase();
         }
     }
 }

@@ -99,6 +99,7 @@
             this.switchISeguridad.Size = new System.Drawing.Size(80, 35);
             this.switchISeguridad.TabIndex = 20;
             this.switchISeguridad.Text = "switchInfinity21";
+            this.switchISeguridad.Click += new System.EventHandler(this.switchISeguridad_Click);
             // 
             // switchIPuertaPrincipal
             // 
@@ -111,6 +112,7 @@
             this.switchIPuertaPrincipal.Size = new System.Drawing.Size(80, 35);
             this.switchIPuertaPrincipal.TabIndex = 20;
             this.switchIPuertaPrincipal.Text = "switchInfinity21";
+            this.switchIPuertaPrincipal.Click += new System.EventHandler(this.switchIPuertaPrincipal_Click);
             // 
             // lblRecamara4
             // 
@@ -171,6 +173,7 @@
             this.Controls.Add(this.contenedorLuces);
             this.Name = "PGeneral";
             this.Size = new System.Drawing.Size(690, 236);
+            this.Load += new System.EventHandler(this.PGeneral_Load);
             this.contenedorLuces.ResumeLayout(false);
             this.pLuces1.ResumeLayout(false);
             this.pLuces1.PerformLayout();

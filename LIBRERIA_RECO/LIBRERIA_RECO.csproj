@@ -96,6 +96,7 @@
     <Compile Include="conexion.cs" />
     <Compile Include="controladorCasa.cs" />
     <Compile Include="controladorSwitch.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="ejecuta.cs" />
     <Compile Include="listarCancionesURL.cs" />
     <Compile Include="PGeneral.cs">
