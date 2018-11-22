@@ -112,7 +112,7 @@ namespace LIBRERIA_RECO
 
             if (client == null)
             {
-                MessageBox.Show("Conexion fallida");
+                //MessageBox.Show("Conexion fallida");
             }
             else
             {

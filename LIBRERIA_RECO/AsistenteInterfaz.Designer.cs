@@ -48,7 +48,7 @@
             // 
             this.Intervalo1.AutoSize = true;
             this.Intervalo1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Intervalo1.ForeColor = System.Drawing.Color.Gray;
+            this.Intervalo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Intervalo1.Location = new System.Drawing.Point(51, 27);
             this.Intervalo1.Name = "Intervalo1";
             this.Intervalo1.Size = new System.Drawing.Size(62, 17);
@@ -60,7 +60,7 @@
             // 
             this.Responde.AutoSize = true;
             this.Responde.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Responde.ForeColor = System.Drawing.Color.Gray;
+            this.Responde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Responde.Location = new System.Drawing.Point(51, 77);
             this.Responde.MaximumSize = new System.Drawing.Size(600, 0);
             this.Responde.Name = "Responde";
@@ -73,7 +73,7 @@
             // 
             this.Escucha.AutoSize = true;
             this.Escucha.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Escucha.ForeColor = System.Drawing.Color.Gray;
+            this.Escucha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Escucha.Location = new System.Drawing.Point(51, 52);
             this.Escucha.MaximumSize = new System.Drawing.Size(600, 0);
             this.Escucha.Name = "Escucha";
@@ -86,7 +86,7 @@
             // 
             this.NivelAudio1.AutoSize = true;
             this.NivelAudio1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NivelAudio1.ForeColor = System.Drawing.Color.Gray;
+            this.NivelAudio1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.NivelAudio1.Location = new System.Drawing.Point(51, 2);
             this.NivelAudio1.Name = "NivelAudio1";
             this.NivelAudio1.Size = new System.Drawing.Size(76, 17);
@@ -98,7 +98,7 @@
             // 
             this.NivelAudio.AutoSize = true;
             this.NivelAudio.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NivelAudio.ForeColor = System.Drawing.Color.Gray;
+            this.NivelAudio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.NivelAudio.Location = new System.Drawing.Point(608, 2);
             this.NivelAudio.Name = "NivelAudio";
             this.NivelAudio.Size = new System.Drawing.Size(22, 17);
@@ -110,7 +110,7 @@
             // 
             this.Intervalo.AutoSize = true;
             this.Intervalo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Intervalo.ForeColor = System.Drawing.Color.Gray;
+            this.Intervalo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Intervalo.Location = new System.Drawing.Point(608, 27);
             this.Intervalo.Name = "Intervalo";
             this.Intervalo.Size = new System.Drawing.Size(22, 17);
@@ -141,6 +141,7 @@
             this.Controls.Add(this.Responde);
             this.Controls.Add(this.Escucha);
             this.Controls.Add(this.NivelAudio1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Name = "AsistenteInterfaz";
             this.Size = new System.Drawing.Size(690, 105);
             this.Load += new System.EventHandler(this.AsistenteInterfaz_Load);
