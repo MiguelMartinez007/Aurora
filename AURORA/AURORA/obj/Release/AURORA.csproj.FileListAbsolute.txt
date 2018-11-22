@@ -102,3 +102,10 @@ C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.Propertie
 C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.csproj.GenerateResource.Cache
 C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.exe.manifest
 C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\obj\Release\AURORA.application
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\FireSharp.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Microsoft.Threading.Tasks.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Newtonsoft.Json.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Microsoft.Threading.Tasks.xml
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Newtonsoft.Json.xml
+C:\Users\MIKE\Documents\GitHub\Aurora\AURORA\AURORA\bin\Release\Microsoft.Threading.Tasks.Extensions.xml

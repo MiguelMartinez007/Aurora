@@ -32,15 +32,15 @@
             this.divicion = new System.Windows.Forms.Panel();
             this.pLuces2 = new System.Windows.Forms.Panel();
             this.switchISala = new Infinity.Controls.SwitchInfinity2();
-            this.switchIBano1 = new Infinity.Controls.SwitchInfinity2();
+            this.switchIBano = new Infinity.Controls.SwitchInfinity2();
             this.switchICocina = new Infinity.Controls.SwitchInfinity2();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblCosina = new System.Windows.Forms.Label();
             this.pLuces1 = new System.Windows.Forms.Panel();
-            this.switchIRecamara2 = new Infinity.Controls.SwitchInfinity2();
-            this.switchIRecamara3 = new Infinity.Controls.SwitchInfinity2();
-            this.switchIRecamara1 = new Infinity.Controls.SwitchInfinity2();
+            this.switchIComedor = new Infinity.Controls.SwitchInfinity2();
+            this.switchIHabitacion = new Infinity.Controls.SwitchInfinity2();
+            this.switchICochera = new Infinity.Controls.SwitchInfinity2();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblRecamara3 = new System.Windows.Forms.Label();
@@ -48,6 +48,8 @@
             this.margenIzquierdo = new System.Windows.Forms.Panel();
             this.margenInferior = new System.Windows.Forms.Panel();
             this.margenSuperior = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.switchIServicio = new Infinity.Controls.SwitchInfinity2();
             this.contenedorLuces.SuspendLayout();
             this.pLuces2.SuspendLayout();
             this.pLuces1.SuspendLayout();
@@ -80,7 +82,7 @@
             // pLuces2
             // 
             this.pLuces2.Controls.Add(this.switchISala);
-            this.pLuces2.Controls.Add(this.switchIBano1);
+            this.pLuces2.Controls.Add(this.switchIBano);
             this.pLuces2.Controls.Add(this.switchICocina);
             this.pLuces2.Controls.Add(this.label3);
             this.pLuces2.Controls.Add(this.label4);
@@ -97,23 +99,23 @@
             this.switchISala.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
             this.switchISala.EstadoSwitch = false;
             this.switchISala.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.switchISala.Location = new System.Drawing.Point(171, 83);
+            this.switchISala.Location = new System.Drawing.Point(171, 60);
             this.switchISala.Name = "switchISala";
             this.switchISala.Size = new System.Drawing.Size(80, 35);
             this.switchISala.TabIndex = 20;
             this.switchISala.Text = "switchInfinity21";
             // 
-            // switchIBano1
+            // switchIBano
             // 
-            this.switchIBano1.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
-            this.switchIBano1.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
-            this.switchIBano1.EstadoSwitch = false;
-            this.switchIBano1.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.switchIBano1.Location = new System.Drawing.Point(171, 153);
-            this.switchIBano1.Name = "switchIBano1";
-            this.switchIBano1.Size = new System.Drawing.Size(80, 35);
-            this.switchIBano1.TabIndex = 20;
-            this.switchIBano1.Text = "switchInfinity21";
+            this.switchIBano.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
+            this.switchIBano.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
+            this.switchIBano.EstadoSwitch = false;
+            this.switchIBano.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.switchIBano.Location = new System.Drawing.Point(171, 111);
+            this.switchIBano.Name = "switchIBano";
+            this.switchIBano.Size = new System.Drawing.Size(80, 35);
+            this.switchIBano.TabIndex = 20;
+            this.switchIBano.Text = "switchInfinity21";
             // 
             // switchICocina
             // 
@@ -131,17 +133,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(34, 159);
+            this.label3.Location = new System.Drawing.Point(34, 117);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 20);
+            this.label3.Size = new System.Drawing.Size(47, 20);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Baño 1";
+            this.label3.Text = "Baño";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(34, 86);
+            this.label4.Location = new System.Drawing.Point(34, 63);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 20);
             this.label4.TabIndex = 15;
@@ -159,9 +161,11 @@
             // 
             // pLuces1
             // 
-            this.pLuces1.Controls.Add(this.switchIRecamara2);
-            this.pLuces1.Controls.Add(this.switchIRecamara3);
-            this.pLuces1.Controls.Add(this.switchIRecamara1);
+            this.pLuces1.Controls.Add(this.switchIComedor);
+            this.pLuces1.Controls.Add(this.switchIServicio);
+            this.pLuces1.Controls.Add(this.switchIHabitacion);
+            this.pLuces1.Controls.Add(this.label5);
+            this.pLuces1.Controls.Add(this.switchICochera);
             this.pLuces1.Controls.Add(this.label2);
             this.pLuces1.Controls.Add(this.label1);
             this.pLuces1.Controls.Add(this.lblRecamara3);
@@ -171,71 +175,71 @@
             this.pLuces1.Size = new System.Drawing.Size(305, 202);
             this.pLuces1.TabIndex = 21;
             // 
-            // switchIRecamara2
+            // switchIComedor
             // 
-            this.switchIRecamara2.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
-            this.switchIRecamara2.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
-            this.switchIRecamara2.EstadoSwitch = false;
-            this.switchIRecamara2.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.switchIRecamara2.Location = new System.Drawing.Point(167, 83);
-            this.switchIRecamara2.Name = "switchIRecamara2";
-            this.switchIRecamara2.Size = new System.Drawing.Size(80, 35);
-            this.switchIRecamara2.TabIndex = 20;
-            this.switchIRecamara2.Text = "switchInfinity21";
+            this.switchIComedor.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
+            this.switchIComedor.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
+            this.switchIComedor.EstadoSwitch = false;
+            this.switchIComedor.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.switchIComedor.Location = new System.Drawing.Point(167, 60);
+            this.switchIComedor.Name = "switchIComedor";
+            this.switchIComedor.Size = new System.Drawing.Size(80, 35);
+            this.switchIComedor.TabIndex = 20;
+            this.switchIComedor.Text = "switchInfinity21";
             // 
-            // switchIRecamara3
+            // switchIHabitacion
             // 
-            this.switchIRecamara3.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
-            this.switchIRecamara3.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
-            this.switchIRecamara3.EstadoSwitch = false;
-            this.switchIRecamara3.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.switchIRecamara3.Location = new System.Drawing.Point(167, 153);
-            this.switchIRecamara3.Name = "switchIRecamara3";
-            this.switchIRecamara3.Size = new System.Drawing.Size(80, 35);
-            this.switchIRecamara3.TabIndex = 20;
-            this.switchIRecamara3.Text = "switchInfinity21";
+            this.switchIHabitacion.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
+            this.switchIHabitacion.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
+            this.switchIHabitacion.EstadoSwitch = false;
+            this.switchIHabitacion.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.switchIHabitacion.Location = new System.Drawing.Point(167, 111);
+            this.switchIHabitacion.Name = "switchIHabitacion";
+            this.switchIHabitacion.Size = new System.Drawing.Size(80, 35);
+            this.switchIHabitacion.TabIndex = 20;
+            this.switchIHabitacion.Text = "switchInfinity21";
             // 
-            // switchIRecamara1
+            // switchICochera
             // 
-            this.switchIRecamara1.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
-            this.switchIRecamara1.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
-            this.switchIRecamara1.EstadoSwitch = false;
-            this.switchIRecamara1.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.switchIRecamara1.Location = new System.Drawing.Point(167, 13);
-            this.switchIRecamara1.Name = "switchIRecamara1";
-            this.switchIRecamara1.Size = new System.Drawing.Size(80, 35);
-            this.switchIRecamara1.TabIndex = 20;
-            this.switchIRecamara1.Text = "switchInfinity21";
+            this.switchICochera.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
+            this.switchICochera.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
+            this.switchICochera.EstadoSwitch = false;
+            this.switchICochera.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.switchICochera.Location = new System.Drawing.Point(167, 13);
+            this.switchICochera.Name = "switchICochera";
+            this.switchICochera.Size = new System.Drawing.Size(80, 35);
+            this.switchICochera.TabIndex = 20;
+            this.switchICochera.Text = "switchInfinity21";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 90);
+            this.label2.Location = new System.Drawing.Point(26, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 20);
+            this.label2.Size = new System.Drawing.Size(74, 20);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Recamara 2";
+            this.label2.Text = "Comedor";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 160);
+            this.label1.Location = new System.Drawing.Point(15, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(85, 20);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Recamara 3";
+            this.label1.Text = "Habitación";
             // 
             // lblRecamara3
             // 
             this.lblRecamara3.AutoSize = true;
             this.lblRecamara3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecamara3.Location = new System.Drawing.Point(16, 20);
+            this.lblRecamara3.Location = new System.Drawing.Point(31, 16);
             this.lblRecamara3.Name = "lblRecamara3";
-            this.lblRecamara3.Size = new System.Drawing.Size(96, 20);
+            this.lblRecamara3.Size = new System.Drawing.Size(69, 20);
             this.lblRecamara3.TabIndex = 15;
-            this.lblRecamara3.Text = "Recamara 1";
+            this.lblRecamara3.Text = "Cochera";
             // 
             // margenDerecho
             // 
@@ -269,6 +273,28 @@
             this.margenSuperior.Size = new System.Drawing.Size(690, 40);
             this.margenSuperior.TabIndex = 16;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(36, 161);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 20);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Servicio";
+            // 
+            // switchIServicio
+            // 
+            this.switchIServicio.ActiveColorPrimary = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(75)))), ((int)(((byte)(179)))));
+            this.switchIServicio.ActiveColorSecondary = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(182)))), ((int)(((byte)(219)))));
+            this.switchIServicio.EstadoSwitch = false;
+            this.switchIServicio.FontColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.switchIServicio.Location = new System.Drawing.Point(167, 161);
+            this.switchIServicio.Name = "switchIServicio";
+            this.switchIServicio.Size = new System.Drawing.Size(80, 35);
+            this.switchIServicio.TabIndex = 20;
+            this.switchIServicio.Text = "switchInfinity21";
+            // 
             // PLuces
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -291,15 +317,15 @@
         private System.Windows.Forms.Panel divicion;
         private System.Windows.Forms.Panel pLuces2;
         public Infinity.Controls.SwitchInfinity2 switchISala;
-        public Infinity.Controls.SwitchInfinity2 switchIBano1;
+        public Infinity.Controls.SwitchInfinity2 switchIBano;
         public Infinity.Controls.SwitchInfinity2 switchICocina;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblCosina;
         private System.Windows.Forms.Panel pLuces1;
-        public Infinity.Controls.SwitchInfinity2 switchIRecamara2;
-        public Infinity.Controls.SwitchInfinity2 switchIRecamara3;
-        public Infinity.Controls.SwitchInfinity2 switchIRecamara1;
+        public Infinity.Controls.SwitchInfinity2 switchIComedor;
+        public Infinity.Controls.SwitchInfinity2 switchIHabitacion;
+        public Infinity.Controls.SwitchInfinity2 switchICochera;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblRecamara3;
@@ -307,5 +333,7 @@
         private System.Windows.Forms.Panel margenIzquierdo;
         private System.Windows.Forms.Panel margenInferior;
         private System.Windows.Forms.Panel margenSuperior;
+        public Infinity.Controls.SwitchInfinity2 switchIServicio;
+        private System.Windows.Forms.Label label5;
     }
 }

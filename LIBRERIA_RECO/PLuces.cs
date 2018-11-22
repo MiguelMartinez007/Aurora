@@ -22,7 +22,7 @@ namespace LIBRERIA_RECO
 
         private void switchInfinity21_Click(object sender, EventArgs e)
         {
-            controladorSwitch.controlSwitch("1", "2", switchIRecamara1); // Llamada a la función que manda los comandos a la placa arduino
+            controladorSwitch.controlSwitch("1", "2", switchICochera); // Llamada a la función que manda los comandos a la placa arduino
         }
     }
 }

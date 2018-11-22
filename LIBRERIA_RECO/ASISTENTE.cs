@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FireSharp.Config;
+using FireSharp.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +30,15 @@ namespace LIBRERIA_RECO
         // Panel para controlar el asistente
         AsistenteInterfaz asistenteInterfaz1 = new AsistenteInterfaz();
 
+        // Configuración inicial para la conexion con firebase
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "4WA0ApBMXRCfcNMBHQMJ9Z7IUFxeDSFzKowD0Q1a",
+            BasePath = "https://aurora-f2614.firebaseio.com/"
+        };
+
+        IFirebaseClient client; // Cliente del servicio de conexión
+
         /* Funciones del desarrollador */
 
         // Limpiara el formulario
@@ -37,6 +48,8 @@ namespace LIBRERIA_RECO
             pContenedor.Controls.Remove(pluces);
         }
 
+
+
         // Carga las propiedades a los paneles principales
         void valoresDefault()
         {
@@ -45,6 +58,8 @@ namespace LIBRERIA_RECO
             pgeneral.Dock = DockStyle.Fill;
             pluces.Dock = DockStyle.Fill;
         }
+
+
 
         private void close_Click(object sender, EventArgs e)
         {
@@ -72,6 +87,18 @@ namespace LIBRERIA_RECO
 
             valoresDefault();
             pContenedor.Controls.Add(asistenteInterfaz1);
+
+            client = new FireSharp.FirebaseClient(config);
+
+            if (client == null)
+            {
+                MessageBox.Show("Conexion fallida");
+            }
+            else
+            {
+
+                MessageBox.Show("Conexion exitosa");
+            }
         }
     }
 }
