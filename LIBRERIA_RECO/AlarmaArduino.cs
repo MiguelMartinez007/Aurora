@@ -28,8 +28,6 @@ namespace LIBRERIA_RECO
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.ImageLocation = @"c:\recursos\2.gif";
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            
-            Guerra();
         }
         bool pasadas = false;
 
@@ -98,6 +96,7 @@ namespace LIBRERIA_RECO
             {
                 MessageBox.Show("Conexion fallida");
             }
+            Guerra();
         }
 
         private void cerrar_Tick(object sender, EventArgs e)
