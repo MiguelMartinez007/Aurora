@@ -17,7 +17,7 @@ namespace AURORA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AlarmaArduino());
+            Application.Run(new ASISTENTE());
         }
     }
 }

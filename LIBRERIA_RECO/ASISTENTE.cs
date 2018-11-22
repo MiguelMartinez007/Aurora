@@ -40,6 +40,7 @@ namespace LIBRERIA_RECO
 
         IFirebaseClient client; // Cliente del servicio de conexión
         FirebaseResponse response; // Tomara los datos y los insertara, eliminara o editara
+        AlarmaArduino alarmaArduino = new AlarmaArduino();
 
         /* Funciones del desarrollador */
 
@@ -75,6 +76,12 @@ namespace LIBRERIA_RECO
             pluces.switchIServicio.EstadoSwitch = obj.servicio;
             pgeneral.switchISeguridad.EstadoSwitch = obj.alarma;
             pgeneral.switchIPuertaPrincipal.EstadoSwitch = obj.portón;
+
+            if (alarmaArduino.Enabled && !obj.alarma)
+            {
+                alarmaArduino.s1.Stop();
+                alarmaArduino.Close();
+            }
         }
 
 
@@ -119,6 +126,7 @@ namespace LIBRERIA_RECO
                 MessageBox.Show("Conexion exitosa");
                 actualizarValoresFirebase();
             }
+            //alarmaArduino.Show();
         }
 
         private void timerValoresFirebase_Tick(object sender, EventArgs e)

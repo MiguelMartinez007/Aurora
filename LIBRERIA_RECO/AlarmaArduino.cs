@@ -29,7 +29,7 @@ namespace LIBRERIA_RECO
             pictureBox5.ImageLocation = @"c:\recursos\2.gif";
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             
-            hilosonido();
+            Guerra();
         }
         bool pasadas = false;
 
@@ -42,14 +42,7 @@ namespace LIBRERIA_RECO
         };
 
         IFirebaseClient client; // Cliente del servicio de conexión
-
-        public void hilosonido()
-        {
-            //Crea la Instancia del hilo y Manda llamar al Metodo Guerra
-
-            Thread t = new Thread(Guerra);
-            t.Start();
-        }
+        public SoundPlayer s1 = new SoundPlayer(@"c:\recursos\alarma.wav");
 
 
         /* Funciones del desarrollador */
@@ -63,8 +56,6 @@ namespace LIBRERIA_RECO
 
         public void Guerra()
         {
-
-            SoundPlayer s1 = new SoundPlayer(@"c:\recursos\alarma.wav");
             s1.Play();
         }
 
