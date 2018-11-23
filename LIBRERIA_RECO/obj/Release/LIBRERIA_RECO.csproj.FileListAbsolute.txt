@@ -84,3 +84,4 @@ C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.cs
 C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.AlarmaArduino.resources
 C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.controlTV.resources
 C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.interfazControlTV.resources
+C:\Users\MIKE\Documents\GitHub\Aurora\LIBRERIA_RECO\obj\Release\LIBRERIA_RECO.interfazInicio.resources

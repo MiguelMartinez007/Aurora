@@ -109,24 +109,24 @@ namespace LIBRERIA_RECO
 
         private void ASISTENTE_Load(object sender, EventArgs e)
         {
-            // Llama a panel luces al formulario principal cuando carga por primera vez
-            pContenedor.Controls.Add(pgeneral);
+            //// Llama a panel luces al formulario principal cuando carga por primera vez
+            //pContenedor.Controls.Add(pgeneral);
 
-            valoresDefault();
-            pContenedor.Controls.Add(asistenteInterfaz1);
+            //valoresDefault();
+            //pContenedor.Controls.Add(asistenteInterfaz1);
 
-            client = new FireSharp.FirebaseClient(config);
+            //client = new FireSharp.FirebaseClient(config);
 
-            if (client == null)
-            {
-                //MessageBox.Show("Conexion fallida");
-            }
-            else
-            {
-                MessageBox.Show("Conexion exitosa");
-                actualizarValoresFirebase();
-            }
-            //alarmaArduino.Show();
+            //if (client == null)
+            //{
+            //    //MessageBox.Show("Conexion fallida");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Conexion exitosa");
+            //    actualizarValoresFirebase();
+            //}
+            ////alarmaArduino.Show();
         }
 
         private void timerValoresFirebase_Tick(object sender, EventArgs e)

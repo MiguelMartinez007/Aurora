@@ -116,6 +116,12 @@
     <Compile Include="interfazControlTV.Designer.cs">
       <DependentUpon>interfazControlTV.cs</DependentUpon>
     </Compile>
+    <Compile Include="interfazInicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="interfazInicio.Designer.cs">
+      <DependentUpon>interfazInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="listarCancionesURL.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="PGeneral.cs">
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="interfazControlTV.resx">
       <DependentUpon>interfazControlTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfazInicio.resx">
+      <DependentUpon>interfazInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PGeneral.resx">
       <DependentUpon>PGeneral.cs</DependentUpon>

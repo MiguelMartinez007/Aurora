@@ -39,9 +39,11 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.barraSuperior = new System.Windows.Forms.Panel();
             this.barraInferior = new System.Windows.Forms.Panel();
-            this.pContenedor = new System.Windows.Forms.Panel();
             this.timerValoresFirebase = new System.Windows.Forms.Timer(this.components);
+            this.interfazInicio1 = new LIBRERIA_RECO.interfazInicio();
+            this.pContenedor = new System.Windows.Forms.Panel();
             this.menuPricipal.SuspendLayout();
+            this.pContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuPricipal
@@ -173,19 +175,28 @@
             this.barraInferior.Size = new System.Drawing.Size(690, 3);
             this.barraInferior.TabIndex = 6;
             // 
-            // pContenedor
-            // 
-            this.pContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pContenedor.Location = new System.Drawing.Point(60, 80);
-            this.pContenedor.Name = "pContenedor";
-            this.pContenedor.Size = new System.Drawing.Size(690, 377);
-            this.pContenedor.TabIndex = 7;
-            // 
             // timerValoresFirebase
             // 
             this.timerValoresFirebase.Enabled = true;
             this.timerValoresFirebase.Interval = 3000;
             this.timerValoresFirebase.Tick += new System.EventHandler(this.timerValoresFirebase_Tick);
+            // 
+            // interfazInicio1
+            // 
+            this.interfazInicio1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.interfazInicio1.Location = new System.Drawing.Point(0, 0);
+            this.interfazInicio1.Name = "interfazInicio1";
+            this.interfazInicio1.Size = new System.Drawing.Size(690, 377);
+            this.interfazInicio1.TabIndex = 0;
+            // 
+            // pContenedor
+            // 
+            this.pContenedor.Controls.Add(this.interfazInicio1);
+            this.pContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pContenedor.Location = new System.Drawing.Point(60, 80);
+            this.pContenedor.Name = "pContenedor";
+            this.pContenedor.Size = new System.Drawing.Size(690, 377);
+            this.pContenedor.TabIndex = 7;
             // 
             // ASISTENTE
             // 
@@ -206,6 +217,7 @@
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Load += new System.EventHandler(this.ASISTENTE_Load);
             this.menuPricipal.ResumeLayout(false);
+            this.pContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -221,7 +233,8 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel barraSuperior;
         private System.Windows.Forms.Panel barraInferior;
-        private System.Windows.Forms.Panel pContenedor;
         private System.Windows.Forms.Timer timerValoresFirebase;
+        private interfazInicio interfazInicio1;
+        private System.Windows.Forms.Panel pContenedor;
     }
 }
