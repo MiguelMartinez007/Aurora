@@ -197,7 +197,7 @@ insert into usuario(nombre,contrasena) values
 
 insert into asistente(nombre,voz,tiempoLimite,palabraActiva,palabraDesactiva,respuestaDesactiva,respuestaActiva,respuestaNombre,usuario_fk) values
 ('JARVIS','Jorge',5,'Despierta','Duerme','Hasta luego','Aqui estoy a sus ordenes','Si',1),
-('AURORA','Jorge',15,'Estoy en casa','Adios','Adios','Bienvenido','Si',2),
+('AURORA','Jorge',15,'Despierta','Adios','Adios','Bienvenido','Si',2),
 ('Conejita ardiente','Jorge',10,'¿Estas despierta?','Nos vemos luego','Nos vemos','Para ti siempre','Si',3);
 
 insert into escucha (escucha) values
