@@ -46,12 +46,12 @@ pinMode (DHpin, OUTPUT);
 }
 void loop () {  
    start_test ();
-  /*Serial.print ("Current humdity =");
+  Serial.print ("Current humdity =");
   Serial.print (dat [0], DEC); // display the humidity-bit integer;
   Serial.print ('.');
   Serial.print (dat [1], DEC); // display the humidity decimal places;
   Serial.println ('%');
-  Serial.print ("Current temperature =");*/
+  Serial.print ("Current temperature =");
   String myString = String(dat[2]);
   pinMode(13,OUTPUT);
   if(myString.toInt() >= 24)

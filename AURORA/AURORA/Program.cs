@@ -17,7 +17,7 @@ namespace AURORA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PantallaInicio());
+            Application.Run(new ASISTENTE());
         }
     }
 }

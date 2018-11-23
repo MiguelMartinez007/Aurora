@@ -11,7 +11,7 @@ namespace LIBRERIA_RECO
 {
     public class ArduinoControl
     {
-        private SerialPort puertoArduino = new SerialPort(); // Variable funaional para abrir el puerto de entrada de información
+        public SerialPort puertoArduino = new SerialPort(); // Variable funaional para abrir el puerto de entrada de información
 
         /* Creacion de la funcion que ejecutara las peticiones a la placa arduino */
         public string ejecutarSentencias(string parametro)
@@ -25,15 +25,15 @@ namespace LIBRERIA_RECO
         }
 
         /* Funcion para abrir el puerto serie COM3 */
-        void abrirPuerto()
+        public void abrirPuerto(string puerto = "COM7")
         {
-            puertoArduino.PortName = "COM4"; // Nombre del puerto
+            puertoArduino.PortName = puerto; // Nombre del puerto
             puertoArduino.BaudRate = 9600;
             puertoArduino.Open(); // Se abre el puerto para el intercambio de información
         }
 
         /* Funcion para cerrar el puerto */
-        void cerrarPuerto()
+        public void cerrarPuerto()
         {
             puertoArduino.Close(); // Cerramos el puerto
         }

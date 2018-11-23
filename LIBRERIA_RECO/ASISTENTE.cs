@@ -33,51 +33,6 @@ namespace LIBRERIA_RECO
             pluces.switchIServicio.Click += switchIServicio_Click;
         }
 
-        void switchIServicio_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchISala_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchIHabitacion_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchIComedor_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchICocina_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchICochera_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchIBano_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchISeguridad_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
-        void switchIPuertaPrincipal_Click(object sender, EventArgs e)
-        {
-            reiniciarTimer();
-        }
-
         // Definición de variables globales
         // Privadas
 
@@ -99,6 +54,7 @@ namespace LIBRERIA_RECO
         IFirebaseClient client; // Cliente del servicio de conexión
         FirebaseResponse response; // Tomara los datos y los insertara, eliminara o editara
         AlarmaArduino alarmaArduino = new AlarmaArduino();
+        ArduinoControl arduinoControl = new ArduinoControl();
 
         /* Funciones del desarrollador */
 
@@ -211,6 +167,60 @@ namespace LIBRERIA_RECO
                 //MessageBox.Show("Conexion exitosa");
                 actualizarValoresFirebase();
             }
+
+            arduinoControl.abrirPuerto("COM7");
+            arduinoControl.puertoArduino.Write("a");
+            arduinoControl.cerrarPuerto();
+        }
+
+
+
+
+
+
+        void switchIServicio_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchISala_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIHabitacion_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIComedor_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchICocina_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchICochera_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIBano_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchISeguridad_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIPuertaPrincipal_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
         }
     }
 }
