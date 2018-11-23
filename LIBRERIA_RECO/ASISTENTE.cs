@@ -191,6 +191,7 @@ namespace LIBRERIA_RECO
 
         private void animacion_Tick(object sender, EventArgs e)
         {
+            // Controla la animación de opacidad
             this.Opacity += .1;
             if (this.Opacity == 1)
             {
