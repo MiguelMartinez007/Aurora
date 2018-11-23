@@ -124,6 +124,12 @@
     </Compile>
     <Compile Include="listarCancionesURL.cs" />
     <Compile Include="Music.cs" />
+    <Compile Include="PantallaInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaInicio.Designer.cs">
+      <DependentUpon>PantallaInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="PGeneral.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -166,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="interfazInicio.resx">
       <DependentUpon>interfazInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaInicio.resx">
+      <DependentUpon>PantallaInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PGeneral.resx">
       <DependentUpon>PGeneral.cs</DependentUpon>
