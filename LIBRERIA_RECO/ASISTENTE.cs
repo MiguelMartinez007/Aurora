@@ -18,6 +18,64 @@ namespace LIBRERIA_RECO
         public ASISTENTE()
         {
             InitializeComponent();
+
+            // Switches del panel general
+            pgeneral.switchIPuertaPrincipal.Click += switchIPuertaPrincipal_Click;
+            pgeneral.switchISeguridad.Click += switchISeguridad_Click;
+
+            // Switches del panel de luces
+            pluces.switchIBano.Click += switchIBano_Click;
+            pluces.switchICochera.Click += switchICochera_Click;
+            pluces.switchICocina.Click += switchICocina_Click;
+            pluces.switchIComedor.Click += switchIComedor_Click;
+            pluces.switchIHabitacion.Click += switchIHabitacion_Click;
+            pluces.switchISala.Click += switchISala_Click;
+            pluces.switchIServicio.Click += switchIServicio_Click;
+        }
+
+        void switchIServicio_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchISala_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIHabitacion_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIComedor_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchICocina_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchICochera_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIBano_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchISeguridad_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
+        }
+
+        void switchIPuertaPrincipal_Click(object sender, EventArgs e)
+        {
+            reiniciarTimer();
         }
 
         // Definición de variables globales
@@ -49,6 +107,13 @@ namespace LIBRERIA_RECO
         {
             pContenedor.Controls.Remove(pgeneral);
             pContenedor.Controls.Remove(pluces);
+        }
+
+        // Reiniciar timer
+        void reiniciarTimer()
+        {
+            timerValoresFirebase.Stop();
+            timerValoresFirebase.Start();
         }
 
 

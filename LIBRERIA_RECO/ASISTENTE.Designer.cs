@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ASISTENTE));
             this.menuPricipal = new System.Windows.Forms.Panel();
+            this.general = new Infinity.Controls.ButtonImageInfinity();
             this.luces = new Infinity.Controls.ButtonImageInfinity();
             this.panel1 = new System.Windows.Forms.Panel();
             this.close = new Infinity.Controls.ButtonImageInfinity();
@@ -41,7 +42,6 @@
             this.timerValoresFirebase = new System.Windows.Forms.Timer(this.components);
             this.pContenedor = new System.Windows.Forms.Panel();
             this.animacion = new System.Windows.Forms.Timer(this.components);
-            this.general = new Infinity.Controls.ButtonImageInfinity();
             this.menuPricipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +57,30 @@
             this.menuPricipal.Name = "menuPricipal";
             this.menuPricipal.Size = new System.Drawing.Size(60, 500);
             this.menuPricipal.TabIndex = 1;
+            // 
+            // general
+            // 
+            this.general.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(12)))), ((int)(((byte)(16)))));
+            this.general.ActiveIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.ActiveIcon")));
+            this.general.ActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
+            this.general.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
+            this.general.BorderImage = 12;
+            this.general.ColorFondo = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
+            this.general.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.general.Dock = System.Windows.Forms.DockStyle.Top;
+            this.general.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.general.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(19)))), ((int)(((byte)(25)))));
+            this.general.HoverIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.HoverIcon")));
+            this.general.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
+            this.general.Icon = ((System.Drawing.Bitmap)(resources.GetObject("general.Icon")));
+            this.general.Location = new System.Drawing.Point(0, 180);
+            this.general.Name = "general";
+            this.general.PositionImage = true;
+            this.general.Size = new System.Drawing.Size(60, 60);
+            this.general.SizeImage = 35;
+            this.general.TabIndex = 9;
+            this.general.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.general.Click += new System.EventHandler(this.general_Click);
             // 
             // luces
             // 
@@ -169,30 +193,6 @@
             // 
             this.animacion.Enabled = true;
             this.animacion.Tick += new System.EventHandler(this.animacion_Tick);
-            // 
-            // general
-            // 
-            this.general.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(12)))), ((int)(((byte)(16)))));
-            this.general.ActiveIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.ActiveIcon")));
-            this.general.ActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
-            this.general.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
-            this.general.BorderImage = 12;
-            this.general.ColorFondo = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
-            this.general.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.general.Dock = System.Windows.Forms.DockStyle.Top;
-            this.general.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.general.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(19)))), ((int)(((byte)(25)))));
-            this.general.HoverIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.HoverIcon")));
-            this.general.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
-            this.general.Icon = ((System.Drawing.Bitmap)(resources.GetObject("general.Icon")));
-            this.general.Location = new System.Drawing.Point(0, 180);
-            this.general.Name = "general";
-            this.general.PositionImage = true;
-            this.general.Size = new System.Drawing.Size(60, 60);
-            this.general.SizeImage = 35;
-            this.general.TabIndex = 9;
-            this.general.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.general.Click += new System.EventHandler(this.general_Click);
             // 
             // ASISTENTE
             // 
