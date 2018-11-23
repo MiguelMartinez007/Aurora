@@ -28,8 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.animacion2 = new System.Windows.Forms.Timer(this.components);
+            this.animacion1 = new System.Windows.Forms.Timer(this.components);
+            this.espera = new System.Windows.Forms.Timer(this.components);
             this.interfazInicio1 = new LIBRERIA_RECO.interfazInicio();
             this.SuspendLayout();
+            // 
+            // animacion2
+            // 
+            this.animacion2.Tick += new System.EventHandler(this.animacion_Tick);
+            // 
+            // animacion1
+            // 
+            this.animacion1.Enabled = true;
+            this.animacion1.Tick += new System.EventHandler(this.animacion1_Tick);
+            // 
+            // espera
+            // 
+            this.espera.Interval = 2000;
+            this.espera.Tick += new System.EventHandler(this.espera_Tick);
             // 
             // interfazInicio1
             // 
@@ -46,6 +64,7 @@
             this.Controls.Add(this.interfazInicio1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PantallaInicio";
+            this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PantallaInicio";
             this.ResumeLayout(false);
@@ -55,5 +74,8 @@
         #endregion
 
         private interfazInicio interfazInicio1;
+        private System.Windows.Forms.Timer animacion2;
+        private System.Windows.Forms.Timer animacion1;
+        private System.Windows.Forms.Timer espera;
     }
 }

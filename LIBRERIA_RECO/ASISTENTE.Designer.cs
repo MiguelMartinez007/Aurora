@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ASISTENTE));
             this.menuPricipal = new System.Windows.Forms.Panel();
             this.luces = new Infinity.Controls.ButtonImageInfinity();
-            this.general = new Infinity.Controls.ButtonImageInfinity();
             this.panel1 = new System.Windows.Forms.Panel();
             this.close = new Infinity.Controls.ButtonImageInfinity();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -41,14 +40,16 @@
             this.barraInferior = new System.Windows.Forms.Panel();
             this.timerValoresFirebase = new System.Windows.Forms.Timer(this.components);
             this.pContenedor = new System.Windows.Forms.Panel();
+            this.animacion = new System.Windows.Forms.Timer(this.components);
+            this.general = new Infinity.Controls.ButtonImageInfinity();
             this.menuPricipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuPricipal
             // 
             this.menuPricipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
-            this.menuPricipal.Controls.Add(this.luces);
             this.menuPricipal.Controls.Add(this.general);
+            this.menuPricipal.Controls.Add(this.luces);
             this.menuPricipal.Controls.Add(this.panel1);
             this.menuPricipal.Controls.Add(this.close);
             this.menuPricipal.Dock = System.Windows.Forms.DockStyle.Left;
@@ -72,7 +73,7 @@
             this.luces.HoverIcon = ((System.Drawing.Bitmap)(resources.GetObject("luces.HoverIcon")));
             this.luces.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
             this.luces.Icon = ((System.Drawing.Bitmap)(resources.GetObject("luces.Icon")));
-            this.luces.Location = new System.Drawing.Point(0, 180);
+            this.luces.Location = new System.Drawing.Point(0, 120);
             this.luces.Name = "luces";
             this.luces.PositionImage = true;
             this.luces.Size = new System.Drawing.Size(60, 60);
@@ -80,30 +81,6 @@
             this.luces.TabIndex = 8;
             this.luces.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.luces.Click += new System.EventHandler(this.luces_Click);
-            // 
-            // general
-            // 
-            this.general.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(12)))), ((int)(((byte)(16)))));
-            this.general.ActiveIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.ActiveIcon")));
-            this.general.ActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
-            this.general.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
-            this.general.BorderImage = 12;
-            this.general.ColorFondo = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
-            this.general.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.general.Dock = System.Windows.Forms.DockStyle.Top;
-            this.general.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.general.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(19)))), ((int)(((byte)(25)))));
-            this.general.HoverIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.HoverIcon")));
-            this.general.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
-            this.general.Icon = ((System.Drawing.Bitmap)(resources.GetObject("general.Icon")));
-            this.general.Location = new System.Drawing.Point(0, 120);
-            this.general.Name = "general";
-            this.general.PositionImage = true;
-            this.general.Size = new System.Drawing.Size(60, 60);
-            this.general.SizeImage = 35;
-            this.general.TabIndex = 7;
-            this.general.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.general.Click += new System.EventHandler(this.general_Click);
             // 
             // panel1
             // 
@@ -186,6 +163,36 @@
             this.pContenedor.Name = "pContenedor";
             this.pContenedor.Size = new System.Drawing.Size(690, 377);
             this.pContenedor.TabIndex = 7;
+            this.pContenedor.Click += new System.EventHandler(this.general_Click);
+            // 
+            // animacion
+            // 
+            this.animacion.Enabled = true;
+            this.animacion.Tick += new System.EventHandler(this.animacion_Tick);
+            // 
+            // general
+            // 
+            this.general.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(12)))), ((int)(((byte)(16)))));
+            this.general.ActiveIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.ActiveIcon")));
+            this.general.ActiveTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
+            this.general.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
+            this.general.BorderImage = 12;
+            this.general.ColorFondo = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
+            this.general.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.general.Dock = System.Windows.Forms.DockStyle.Top;
+            this.general.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.general.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(19)))), ((int)(((byte)(25)))));
+            this.general.HoverIcon = ((System.Drawing.Bitmap)(resources.GetObject("general.HoverIcon")));
+            this.general.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(251)))), ((int)(((byte)(232)))));
+            this.general.Icon = ((System.Drawing.Bitmap)(resources.GetObject("general.Icon")));
+            this.general.Location = new System.Drawing.Point(0, 180);
+            this.general.Name = "general";
+            this.general.PositionImage = true;
+            this.general.Size = new System.Drawing.Size(60, 60);
+            this.general.SizeImage = 35;
+            this.general.TabIndex = 9;
+            this.general.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.general.Click += new System.EventHandler(this.general_Click);
             // 
             // ASISTENTE
             // 
@@ -200,7 +207,7 @@
             this.Controls.Add(this.menuPricipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ASISTENTE";
-            this.Opacity = 0.95D;
+            this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ASISTENTE";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -214,7 +221,6 @@
 
         private System.Windows.Forms.Panel menuPricipal;
         private Infinity.Controls.ButtonImageInfinity luces;
-        private Infinity.Controls.ButtonImageInfinity general;
         private System.Windows.Forms.Panel panel1;
         private Infinity.Controls.ButtonImageInfinity close;
         private System.Windows.Forms.Panel panel2;
@@ -223,5 +229,7 @@
         private System.Windows.Forms.Panel barraInferior;
         private System.Windows.Forms.Timer timerValoresFirebase;
         private System.Windows.Forms.Panel pContenedor;
+        private System.Windows.Forms.Timer animacion;
+        private Infinity.Controls.ButtonImageInfinity general;
     }
 }
