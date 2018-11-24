@@ -202,6 +202,7 @@
             this.switchIServicio.Size = new System.Drawing.Size(80, 35);
             this.switchIServicio.TabIndex = 20;
             this.switchIServicio.Text = "switchInfinity21";
+            this.switchIServicio.Visible = false;
             this.switchIServicio.Click += new System.EventHandler(this.switchIServicio_Click);
             // 
             // switchIHabitacion
@@ -226,6 +227,7 @@
             this.label5.Size = new System.Drawing.Size(64, 20);
             this.label5.TabIndex = 16;
             this.label5.Text = "Servicio";
+            this.label5.Visible = false;
             // 
             // switchICochera
             // 

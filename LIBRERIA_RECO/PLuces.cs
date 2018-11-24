@@ -27,7 +27,8 @@ namespace LIBRERIA_RECO
             BasePath = "https://aurora-f2614.firebaseio.com/"
         };
 
-        IFirebaseClient client; // Cliente del servicio de conexión}
+        IFirebaseClient client; // Cliente del servicio de conexión
+        String puerto = "COM6";
 
 
         /* Funciones del desarrollador */
@@ -41,8 +42,6 @@ namespace LIBRERIA_RECO
 
         private async void switchICochera_Click(object sender, EventArgs e)
         {
-            //controladorSwitch.controlSwitch("1", "2", switchICochera); // Llamada a la función que manda los comandos a la placa arduino
-
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
@@ -60,6 +59,7 @@ namespace LIBRERIA_RECO
                 servicio = obj.servicio
             };
             mandarDatosJson(data);
+            controladorSwitch.controlSwitch("1", "2", switchICochera, puerto); // Llamada a la función que manda los comandos a la placa arduino
         }
 
         private void PLuces_Load(object sender, EventArgs e)
@@ -74,6 +74,7 @@ namespace LIBRERIA_RECO
 
         private async void switchIComedor_Click(object sender, EventArgs e)
         {
+            controladorSwitch.controlSwitch("3", "4", switchIComedor, "COM6"); // Llamada a la función que manda los comandos a la placa arduino
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
@@ -95,6 +96,7 @@ namespace LIBRERIA_RECO
 
         private async void switchIHabitacion_Click(object sender, EventArgs e)
         {
+            controladorSwitch.controlSwitch("5", "6", switchIHabitacion, "COM6"); // Llamada a la función que manda los comandos a la placa arduino
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
@@ -116,6 +118,7 @@ namespace LIBRERIA_RECO
 
         private async void switchIServicio_Click(object sender, EventArgs e)
         {
+            controladorSwitch.controlSwitch("7", "8", switchIServicio, "COM6"); // Llamada a la función que manda los comandos a la placa arduino
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
@@ -137,6 +140,7 @@ namespace LIBRERIA_RECO
 
         private async void switchICocina_Click(object sender, EventArgs e)
         {
+            controladorSwitch.controlSwitch("7", "8", switchICocina, "COM6"); // Llamada a la función que manda los comandos a la placa arduino
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
@@ -158,6 +162,7 @@ namespace LIBRERIA_RECO
 
         private async void switchISala_Click(object sender, EventArgs e)
         {
+            controladorSwitch.controlSwitch("A", "B", switchISala, "COM6"); // Llamada a la función que manda los comandos a la placa arduino
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 
@@ -179,6 +184,7 @@ namespace LIBRERIA_RECO
 
         private async void switchIBano_Click(object sender, EventArgs e)
         {
+            controladorSwitch.controlSwitch("C", "D", switchIBano, "COM6"); // Llamada a la función que manda los comandos a la placa arduino
             FirebaseResponse response = await client.GetAsync("/");
             Data obj = response.ResultAs<Data>();
 

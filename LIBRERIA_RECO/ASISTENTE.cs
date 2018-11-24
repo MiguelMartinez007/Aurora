@@ -55,6 +55,8 @@ namespace LIBRERIA_RECO
         FirebaseResponse response; // Tomara los datos y los insertara, eliminara o editara
         AlarmaArduino alarmaArduino = new AlarmaArduino();
         ArduinoControl arduinoControl = new ArduinoControl();
+        String puerto = "COM6";
+        String puerto2 = "COM7";
 
         /* Funciones del desarrollador */
 
@@ -102,6 +104,35 @@ namespace LIBRERIA_RECO
                 pluces.switchIServicio.EstadoSwitch = obj.servicio;
                 pgeneral.switchISeguridad.EstadoSwitch = obj.alarma;
                 pgeneral.switchIPuertaPrincipal.EstadoSwitch = obj.portón;
+
+
+                // Luces
+                try
+                {
+                    controladorSwitch.controlSwitchDefinido("1", "2", obj.cochera, puerto); // Llamada a la función que manda los comandos a la placa arduino
+                    controladorSwitch.controlSwitchDefinido("A", "B", obj.sala, puerto); // Llamada a la función que manda los comandos a la placa arduino
+                    controladorSwitch.controlSwitchDefinido("C", "D", obj.baño, puerto);
+                    controladorSwitch.controlSwitchDefinido("5", "6", obj.habitación, puerto);
+                    controladorSwitch.controlSwitchDefinido("7", "8", obj.cocina, puerto);
+                    controladorSwitch.controlSwitchDefinido("3", "4", obj.comedor, puerto);
+                }
+                catch (Exception)
+                {
+                    
+                }
+
+                // General
+                try
+                {
+                    //if (obj.servicio != pgeneral.switchIPuertaPrincipal.EstadoSwitch)
+                    //{
+                        controladorSwitch.controlSwitchDefinido("c", "a", obj.portón, puerto2);
+                    //}
+                }
+                catch (Exception)
+                {
+                    
+                }
 
                 if (alarmaArduino.Enabled && !obj.alarma)
                 {

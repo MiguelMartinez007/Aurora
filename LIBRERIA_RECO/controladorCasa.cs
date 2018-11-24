@@ -20,15 +20,29 @@ namespace LIBRERIA_RECO
         /* Funcion para abrir el puerto serie COM3 */
         void abrirPuerto(string puerto)
         {
-            puertoArduino.PortName = puerto; // Nombre del puerto
-            puertoArduino.BaudRate = 9600;
-            puertoArduino.Open(); // Se abre el puerto para el intercambio de información
+            try
+            {
+                puertoArduino.PortName = puerto; // Nombre del puerto
+                puertoArduino.BaudRate = 9600;
+                puertoArduino.Open(); // Se abre el puerto para el intercambio de información
+            }
+            catch (Exception)
+            {
+                
+            }
         }
 
         /* Funcion para cerrar el puerto */
         void cerrarPuerto()
         {
-            puertoArduino.Close(); // Cerramos el puerto
+            try
+            {
+                puertoArduino.Close(); // Cerramos el puerto
+            }
+            catch (Exception)
+            {
+                
+            }
         }
 
         /* Funcion que ejecutara las peticiones a la placa arduino */
@@ -36,11 +50,17 @@ namespace LIBRERIA_RECO
         {
             // Definición de variables
             String respuesta = String.Empty;
+            try
+            {
+                abrirPuerto(puerto); // Llamada a habrir el puerto
+                puertoArduino.Write(parametro); // Madada de datos a la placa
+                respuesta = puertoArduino.ReadExisting(); // Lectura de respuesta de la placa
+                cerrarPuerto(); // Llamada para cerrar el puerto
+            }
+            catch (Exception)
+            {
 
-            abrirPuerto(puerto); // Llamada a habrir el puerto
-            puertoArduino.Write(parametro); // Madada de datos a la placa
-            respuesta = puertoArduino.ReadExisting(); // Lectura de respuesta de la placa
-            cerrarPuerto(); // Llamada para cerrar el puerto
+            }
             return respuesta; // Retorno de la respuesta en caso de que exita
         }
     }

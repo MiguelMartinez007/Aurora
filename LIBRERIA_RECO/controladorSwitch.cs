@@ -22,5 +22,13 @@ namespace LIBRERIA_RECO
             else
                 cc.ejecutarSentencias(cmdFalse, puerto);
         }
+
+        public static void controlSwitchDefinido(String cmdTrue, String cmdFalse, bool control, string puerto)
+        {
+            if (control)
+                cc.ejecutarSentencias(cmdTrue, puerto);
+            else
+                cc.ejecutarSentencias(cmdFalse, puerto);
+        }
     }
 }

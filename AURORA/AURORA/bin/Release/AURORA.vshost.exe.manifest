@@ -55,7 +55,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1XgoNB6nrqfj/K6nEwHKpekv8oEK7ePTqb9mqqUIwgc=</dsig:DigestValue>
+        <dsig:DigestValue>3YUSxhPgcIatczdYMmvGpLMMaskDjEnvXLOm0l4a2GQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -96,14 +96,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LIBRERIA_RECO.dll" size="106496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LIBRERIA_RECO.dll" size="107008">
       <assemblyIdentity name="LIBRERIA_RECO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GqN8JbEAeBhye5aeLpqr/7/CVBuxoF5fZD4wAmvD52s=</dsig:DigestValue>
+        <dsig:DigestValue>SQH0IDrsr9cbm6ePK88izxMxBunXikz3UGlLNVoLLjs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

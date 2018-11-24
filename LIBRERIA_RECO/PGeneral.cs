@@ -55,7 +55,7 @@ namespace LIBRERIA_RECO
                 habitación = obj.habitación,
                 portón = switchIPuertaPrincipal.EstadoSwitch,
                 sala = obj.sala,
-                servicio = obj.servicio
+                servicio = switchIPuertaPrincipal.EstadoSwitch
             };
             mandarDatosJson(data);
 
