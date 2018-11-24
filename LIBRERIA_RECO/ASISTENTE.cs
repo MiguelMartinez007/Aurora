@@ -81,27 +81,44 @@ namespace LIBRERIA_RECO
             asistenteInterfaz1.Dock = DockStyle.Bottom;
             pgeneral.Dock = DockStyle.Fill;
             pluces.Dock = DockStyle.Fill;
+
+            pgeneral.Enabled = false;
+            pluces.Enabled = false;
         }
 
         // función para tomar los nuevos valores que tiene firebase
         async void actualizarValoresFirebase(){
-            response = await client.GetAsync("/");
-            Data obj = response.ResultAs<Data>();
-
-            pluces.switchIBano.EstadoSwitch = obj.baño;
-            pluces.switchICochera.EstadoSwitch = obj.cochera;
-            pluces.switchICocina.EstadoSwitch = obj.cocina;
-            pluces.switchIComedor.EstadoSwitch = obj.comedor;
-            pluces.switchIHabitacion.EstadoSwitch = obj.habitación;
-            pluces.switchISala.EstadoSwitch = obj.sala;
-            pluces.switchIServicio.EstadoSwitch = obj.servicio;
-            pgeneral.switchISeguridad.EstadoSwitch = obj.alarma;
-            pgeneral.switchIPuertaPrincipal.EstadoSwitch = obj.portón;
-
-            if (alarmaArduino.Enabled && !obj.alarma)
+            try
             {
-                alarmaArduino.s1.Stop();
-                alarmaArduino.Close();
+                response = await client.GetAsync("/");
+                Data obj = response.ResultAs<Data>();
+
+                pluces.switchIBano.EstadoSwitch = obj.baño;
+                pluces.switchICochera.EstadoSwitch = obj.cochera;
+                pluces.switchICocina.EstadoSwitch = obj.cocina;
+                pluces.switchIComedor.EstadoSwitch = obj.comedor;
+                pluces.switchIHabitacion.EstadoSwitch = obj.habitación;
+                pluces.switchISala.EstadoSwitch = obj.sala;
+                pluces.switchIServicio.EstadoSwitch = obj.servicio;
+                pgeneral.switchISeguridad.EstadoSwitch = obj.alarma;
+                pgeneral.switchIPuertaPrincipal.EstadoSwitch = obj.portón;
+
+                if (alarmaArduino.Enabled && !obj.alarma)
+                {
+                    alarmaArduino.s1.Stop();
+                    alarmaArduino.Close();
+                }
+                barraSuperior.BackColor = Color.FromArgb(222, 149, 18);
+                msgError.Visible = false;
+                pgeneral.Enabled = true;
+                pluces.Enabled = true;
+            }
+            catch (Exception)
+            {
+                barraSuperior.BackColor = Color.Red;
+                msgError.Visible = true;
+                pgeneral.Enabled = false;
+                pluces.Enabled = false;
             }
         }
 

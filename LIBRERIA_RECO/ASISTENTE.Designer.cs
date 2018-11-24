@@ -42,7 +42,9 @@
             this.timerValoresFirebase = new System.Windows.Forms.Timer(this.components);
             this.pContenedor = new System.Windows.Forms.Panel();
             this.animacion = new System.Windows.Forms.Timer(this.components);
+            this.msgError = new System.Windows.Forms.Label();
             this.menuPricipal.SuspendLayout();
+            this.barraSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuPricipal
@@ -159,6 +161,7 @@
             // barraSuperior
             // 
             this.barraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(149)))), ((int)(((byte)(18)))));
+            this.barraSuperior.Controls.Add(this.msgError);
             this.barraSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.barraSuperior.Location = new System.Drawing.Point(60, 40);
             this.barraSuperior.Name = "barraSuperior";
@@ -194,6 +197,18 @@
             this.animacion.Enabled = true;
             this.animacion.Tick += new System.EventHandler(this.animacion_Tick);
             // 
+            // msgError
+            // 
+            this.msgError.AutoSize = true;
+            this.msgError.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msgError.ForeColor = System.Drawing.Color.White;
+            this.msgError.Location = new System.Drawing.Point(6, 11);
+            this.msgError.Name = "msgError";
+            this.msgError.Size = new System.Drawing.Size(650, 21);
+            this.msgError.TabIndex = 0;
+            this.msgError.Text = "Comprueba la conexión a Internet ya que algunos datos no se pueden actualizar.";
+            this.msgError.Visible = false;
+            // 
             // ASISTENTE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,6 +228,8 @@
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Load += new System.EventHandler(this.ASISTENTE_Load);
             this.menuPricipal.ResumeLayout(false);
+            this.barraSuperior.ResumeLayout(false);
+            this.barraSuperior.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -231,5 +248,6 @@
         private System.Windows.Forms.Panel pContenedor;
         private System.Windows.Forms.Timer animacion;
         private Infinity.Controls.ButtonImageInfinity general;
+        private System.Windows.Forms.Label msgError;
     }
 }
