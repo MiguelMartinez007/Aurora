@@ -28,7 +28,7 @@ namespace LIBRERIA_RECO
         };
 
         IFirebaseClient client; // Cliente del servicio de conexión
-
+        String puerto = "COM7";
 
         /* Funciones del desarrollador */
         async void mandarDatosJson(Data data)
@@ -58,6 +58,9 @@ namespace LIBRERIA_RECO
                 servicio = obj.servicio
             };
             mandarDatosJson(data);
+
+            // Manda la peticion a la placa
+            controladorSwitch.controlSwitch("a", "c", switchIPuertaPrincipal, puerto);
         }
 
         private async void switchISeguridad_Click(object sender, EventArgs e)

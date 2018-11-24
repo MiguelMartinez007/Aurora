@@ -18,9 +18,9 @@ namespace LIBRERIA_RECO
         /* Funciones */
 
         /* Funcion para abrir el puerto serie COM3 */
-        void abrirPuerto()
+        void abrirPuerto(string puerto)
         {
-            puertoArduino.PortName = "COM6"; // Nombre del puerto
+            puertoArduino.PortName = puerto; // Nombre del puerto
             puertoArduino.BaudRate = 9600;
             puertoArduino.Open(); // Se abre el puerto para el intercambio de información
         }
@@ -32,12 +32,12 @@ namespace LIBRERIA_RECO
         }
 
         /* Funcion que ejecutara las peticiones a la placa arduino */
-        public string ejecutarSentencias(string parametro)
+        public string ejecutarSentencias(string parametro, string puerto)
         {
             // Definición de variables
             String respuesta = String.Empty;
 
-            abrirPuerto(); // Llamada a habrir el puerto
+            abrirPuerto(puerto); // Llamada a habrir el puerto
             puertoArduino.Write(parametro); // Madada de datos a la placa
             respuesta = puertoArduino.ReadExisting(); // Lectura de respuesta de la placa
             cerrarPuerto(); // Llamada para cerrar el puerto

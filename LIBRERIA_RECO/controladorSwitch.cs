@@ -15,12 +15,12 @@ namespace LIBRERIA_RECO
 
         // Resive como parametros los comandos de activación y desactivación para la placa arduino
         // y el control para comprobar el estado en el que esta y ejecutar uno de los comandos
-        public static void controlSwitch(String cmdTrue, String cmdFalse, Infinity.Controls.SwitchInfinity2 control)
+        public static void controlSwitch(String cmdTrue, String cmdFalse, Infinity.Controls.SwitchInfinity2 control, string puerto)
         {
             if (control.EstadoSwitch)
-                cc.ejecutarSentencias(cmdTrue);
+                cc.ejecutarSentencias(cmdTrue, puerto);
             else
-                cc.ejecutarSentencias(cmdFalse);
+                cc.ejecutarSentencias(cmdFalse, puerto);
         }
     }
 }

@@ -167,10 +167,6 @@ namespace LIBRERIA_RECO
                 //MessageBox.Show("Conexion exitosa");
                 actualizarValoresFirebase();
             }
-
-            arduinoControl.abrirPuerto("COM7");
-            arduinoControl.puertoArduino.Write("a");
-            arduinoControl.cerrarPuerto();
         }
 
 
